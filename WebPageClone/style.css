@@ -40,7 +40,7 @@ nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .Searh-section{
@@ -104,7 +104,7 @@ opacity: 0.5;
     background-color: transparent;
     border: 2px solid rgb(224, 113, 159);
     color:  rgb(224, 113, 159);
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: 600;
 }
 .Iamge-section{
