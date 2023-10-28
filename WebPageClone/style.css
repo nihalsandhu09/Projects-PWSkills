@@ -150,6 +150,11 @@ top: -30px;
     padding: 13px 20px;
     border-radius: 30px;
     
+    
+}
+.home-loan p {
+    font-size: 20px;
+    font-weight: 400;
 }
 .Scoial-links{
     position: absolute;
@@ -158,4 +163,24 @@ top: -30px;
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+
+@media screen and (max-width:500px) {
+    .margin{
+        min-width: 100vh;
+       
+       
+     }
+     nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul {
+        display: none;
+        align-items: center;
+        gap: 20px;
+    
+    }
 }
