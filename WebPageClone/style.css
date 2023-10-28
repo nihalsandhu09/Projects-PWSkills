@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/background-image.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.margin{
+   min-width: 80vh;
+   margin: 20px 100px 0 100px;
+  
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.Searh-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button button{
+    padding: 5px 20px;
+    background-color: rgb(218, 19, 102);
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Title-Section{
+display: flex;
+flex-direction: column;
+position: relative;
+top: -px;
+margin-left: 80px;
+width: 40%;
+}
+.Title-Section h1{
+font-size: 70px;
+}
+.Title-Section p{
+font-size: 23px;
+margin-top: 15px;
+opacity: 0.5;
+
+}
+.title-button-section{
+    display: flex;
+    gap: 10px;
+}
+.title-button-section button{
+    margin-top: 30px;
+    
+}
+.Apply-button{
+    padding: 10px 25px;
+    background-color: rgb(218, 19, 102);
+    color: white;
+    font-weight: 800;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.Loan-button{
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid rgb(224, 113, 159);
+    color:  rgb(224, 113, 159);
+    border-radius: 5px;
+    font-weight: 600;
+}
+.Iamge-section{
+width: 70%;
+}
+.Iamge-section img{
+width: 950px;
+
+position: relative;
+/* left: 20px; */
+top: -30px;
+
+
+
+}
+.car-loan{
+    position: absolute;
+    top: 12%;
+    left: 44.5%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(202, 196, 196);
+    padding: 13px 20px;
+    border-radius: 30px;
+    
+}
+.car-loan p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.home-loan{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(202, 196, 196);
+    padding: 13px 20px;
+    border-radius: 30px;
+    
+}
+.Scoial-links{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
