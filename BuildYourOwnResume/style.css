@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+   
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+
+    height: max-content;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.image-div{
+    background-color: rgb(86, 86, 255);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding: 20px;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.resume-container{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px 10px 10px;
+    gap: 35px;
+    border: 1px solid black;
+   margin: 0 auto;
+}
+.left-section{
+    width: 40%;
+}
+.right-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.work-experince-heading{
+    display: flex;
+    justify-content: space-between;
+}
+ .blue{
+    color: rgb(80, 80, 235);
+    font-variant: small-caps;
+}
+
+.contact-skills-certification-bg{
+    background-color: rgb(59, 57, 57);
+    color: white;
+    height: max-content;
+}
+.contact{
+   padding: 40px;
+}
+.contact-info {
+    margin: 15px;
+}
+.contact .contact-info>span{
+    opacity: 0.7;
+}
+.Skills{
+    padding: 40px;
+}
+.skills-info{
+    margin: 15px;
+}
+.skills-info > p{
+    margin-top: 10px;
+}
+
+.Certificates {
+    padding: 40px;
+}
+.certificate-info {
+    margin: 15px;
+}
+
+.objective >P{
+    margin-top: 10px;
+    line-break: inherit;
+    
+}
+.workExperince .company-name-1,.company-name-2,.company-name-3{
+    padding: 15px;
+}
+
+.work-experince-heading p {
+    font-weight: 900;
+    font-size: 18px;
+}
+.company-name{
+    font-weight: 900;
+    font-size: 18px;
+}
+/* Project Section  */
+
+.project-section > .projects-heading {
+padding: 15px;
+}
+/* Project Section heading  */
+.projects-heading>P{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/* Education */
+.Education > .education-time{
+padding: 15px;
+}
+
+.education-time >p{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.circle-arrow{
+    position: absolute;
+    right: 870px;
+    
+}
+span{
+    opacity: 0.8;
+}
+
+.circle-arrow-section{
+    display: flex;
+    align-items: self-start;
+}
