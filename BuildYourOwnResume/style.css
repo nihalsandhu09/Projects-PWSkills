@@ -27,14 +27,33 @@ body::-webkit-scrollbar{
     justify-content: center;
     align-items: center;
     gap: 2px;
-    padding: 20px;
+    padding: 60px;
 }
 .links{
     display: flex;
     gap: 20px;
     justify-content: center;
-}
+    align-items: center;
 
+    margin-top: 10px;
+
+}
+.github{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    align-self: center;
+}
+.linkdin{
+   
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+    align-self: center;
+}
 .resume-container{
     width: 85vw;
     display: flex;
@@ -65,7 +84,7 @@ body::-webkit-scrollbar{
     height: max-content;
 }
 .contact{
-   padding: 40px;
+   padding:  20px 40px;
 }
 .contact-info {
     margin: 15px;
@@ -74,7 +93,7 @@ body::-webkit-scrollbar{
     opacity: 0.7;
 }
 .Skills{
-    padding: 40px;
+    padding: 20px 40px;
 }
 .skills-info{
     margin: 15px;
@@ -84,7 +103,7 @@ body::-webkit-scrollbar{
 }
 
 .Certificates {
-    padding: 40px;
+    padding: 30px 40px;
 }
 .certificate-info {
     margin: 15px;
@@ -134,9 +153,9 @@ margin-top: 25px;
 .project-section{
     margin-top: 25px;
 }
-.project-section > .projects-heading {
+/* .project-section > .projects-heading {
 /* padding: 15px; */
-}
+/* } */ 
 /* Project Section heading  */
 .projects-heading{
     margin-top: 25px;
