@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+header{
+    width: 100%;
+    height: 13%;
+    background-color: rgb(247, 241, 234);
+    position: fixed;
+   
+}
+header >nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.margin{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav{
+    margin-top: 20px;
+}
+.left-side-nav{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.ticket-Realted-Query{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ticket-related-query-inside-flex{
+    text-align: center;
+}
+.right-side-nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.right-side-nav-inside-flex{
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+/* Main Section */
+
+main{
+    width: 100%;
+    height: 86%;
+    background-image: url(images/HeroImage.png);
+    background-position-x: left;
+   background-position-y: bottom;
+  /* background-blend-mode: unset; */
+  /* background-clip: padding-box; */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.wrapper-heading .main-text{
+position: relative;
+top: 200px;
+left: 26vw;
+/* font-size: 40px; */
+font-size: 38px;
+font-weight: 900;
+color: #fff;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
