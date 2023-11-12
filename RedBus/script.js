@@ -1,40 +1,26 @@
 // For images slider 
 
-let container =  document.getElementById('offer-section-img');
-
-function scrollleft(){
-    container.scrollLeft -= 50
-}
-
-function scrollRight(){
-    container.scrollLeft -= 50
-}
-
-let scrollcontainer = document.querySelector(".gallery");
-let imageWidth = scrollcontainer.querySelector("span img").clientWidth;
-    let backBtn = document.getElementById("backBtn")
-    let nextBtn = document.getElementById("nextBtn")
 
 
+  let scrollcontainer = document.getElementById('offer-section-img')
 
-    // scrollcontainer.addEventListener('wheel',function(evt){
-    //     evt.preventDefault();
-    //     scrollcontainer.scrollLeft += (evt.deltaY > 0 ? 1 : -1) * imageWidth
-    //     scrollcontainer.style.scrollBehavior="auto";
-    // })
+  let boxwidth = scrollcontainer.querySelector('span div').clientWidth;
 
-    scrollcontainer.addEventListener('wheel', function(evet){
-        evet.preventDefault();
-        scrollcontainer.style.scrollBehavior = "smooth"
-        scrollcontainer.scrollLeft += (evet.deltaY >0 ?1:-1) * imageWidth
-        })
-        
+  let backBtn = document.getElementById("back-btn")
+      let nextBtn = document.getElementById("next-Btn")
+
+
+  scrollcontainer.addEventListener('wheel',function(evet){
+    evet.preventDefault();
+    scrollcontainer.style.scrollBehavior="smooth";
+    scrollcontainer.scrollLeft += boxwidth;
+  })
+
   nextBtn.addEventListener('click', function(evt){
-   scrollcontainer.style.scrollBehavior = "smooth";
-   scrollcontainer.scrollLeft += imageWidth; 
-  })
-  backBtn.addEventListener('click', function(evt){
     scrollcontainer.style.scrollBehavior = "smooth";
-    scrollcontainer.scrollLeft -= imageWidth;
-  })
-
+    scrollcontainer.scrollLeft += boxwidth; 
+   })
+   backBtn.addEventListener('click', function(evt){
+     scrollcontainer.style.scrollBehavior = "smooth";
+     scrollcontainer.scrollLeft -= boxwidth;
+   })
