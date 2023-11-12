@@ -25,6 +25,7 @@ header{
     height: 13%;
     background-color:white;
     position: fixed;
+    z-index: 1;
    
 }
 header >nav{
@@ -79,8 +80,7 @@ main{
     background-repeat: no-repeat;
 }
 .wrapper-heading{
-    width: 100%;
-    height: 100%;
+    width: 800px;
 }
 .wrapper-heading .main-text{
 position: relative;
@@ -127,7 +127,7 @@ font-family: 'Roboto', sans-serif;
     /* padding: 0 0 0 20px; */
 }
 i{
-    opacity: 0.3;
+    
     font-size: 20px;
     font-weight: 600;
 }
@@ -190,3 +190,105 @@ font-size: 22px;
 color: #fff;
 font-weight: 900;
 }
+
+
+
+/* Couponb section  */
+
+.Trending-Offers{
+ width: 1200px;   
+ background-color: rgb(239, 244, 244);
+padding: 30px;
+ position: relative;
+top: -150px;
+left: 165px;
+border-radius: 30px;
+
+}
+.trending-offer-heading{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   margin-bottom: 30px;
+   
+}
+.trending-offer-heading button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 1px solid rgb(36, 36, 36);
+    color: blue;
+    font-weight: 600;
+    font-size: 17px;
+}
+.trending-offer-heading p{
+font-size: 38px;
+color: rgb(72, 71, 71);
+font-weight: 500;
+}
+.offer-section-img {
+    display: flex;
+    gap: 20px;
+    overflow-y: scroll;
+    
+}
+.offer-section-img::-webkit-scrollbar{
+    display: none;
+}
+.offer-section-img .inside-offer-section {
+    display: flex;
+    gap: 20px ;
+}
+
+
+ .First{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-image: linear-gradient(to right, blue , rgb(56, 173, 212));
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+.First .img img{
+    border-radius: 50px;
+}
+.First .text-section-first{
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-section-first .transparent-btn button{
+    padding: 2px 10px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(98, 98, 225);
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+}
+.First .text-section-first p{
+margin-bottom: 5px;
+font-weight: 900;
+}
+ .First .coupon-section{
+    display: flex;
+    gap: 10px;
+ }
+ .First .coupon-section .first-coupon P{
+    border:1.8PX  dotted;
+    font-size: 14PX;
+    padding: 2PX 10PX;
+    background-color: rgb(98, 98, 225);
+    
+ }
+ .First .coupon-section .coupon-copy{
+color: white;
+ }
+
+
+ .sponsership img{
+  width: 80%;
+  height: 15%;
+ }
