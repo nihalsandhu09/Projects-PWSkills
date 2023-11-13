@@ -352,8 +352,9 @@ color: white;
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 40px;
     padding-left: 20px;
+    padding-bottom: 10px;
 }
 .left-section .rental-section .rental-section-inside{
 display: flex;
@@ -378,7 +379,7 @@ align-items: center;
     margin-top: 40px;
 }
  .book-cab-bus-button button{
-  padding: 10px 30px;
+  padding: 15px 30px;
   background-color: rgb(227, 60, 94);
   font-size: 18px;
   color: #fff;
@@ -403,22 +404,297 @@ align-items: center;
 }
 
 
+
+/* Hero Section  */
 .hero-section{
-    width: 1200px;
+
+    width: 1230px;
     
     background-color: rgb(236, 115, 115);
+    padding: 30px;
+    margin: 200px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-section-text {
+    color: rgb(255, 255, 255);
+    font-size: 2.7rem;
+    line-height: 3rem;
 }
 
 
+
+
+/* .rating-and-download-section{
+    background-color: white;
+} */
 
 
 .rating-and-download-section{
-    background-color: white;
+
+    display: flex;
+    align-items: center;
+    gap: 80px;
 }
+.quick-acces{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    align-items: center;
+    }
 .quick-acces-logo{
     color:white;
     
      border-radius: 20px; 
      width: fit-content;
      color: black;
+}
+.quick-acces-text{
+    font-size: 19px;
+    color: rgb(51, 50, 50);
+}
+.to-rating-div{
+    background-color: white;
+    width: fit-content;
+    padding:   30px 30px 40px 30px;
+    border-radius: 20px;
+   
+}
+
+
+
+
+
+.rating{
+display: flex;
+gap: 40px;
+margin-top: 30px;
+}
+.rating hr{
+    color: rgb(47, 46, 46);
+}
+
+.play-store-section .rating-stars{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.play-store-section .rating-stars i {
+    font-size: 14px;
+}
+
+.play-store-section .rating-stars p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.downloads{
+    font-size: 14px;
+    opacity: 0.8;text-shadow: rgb(26, 25, 25);
+}
+
+
+.App-store-section .rating-stars{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.App-store-section .rating-stars i {
+    font-size: 14px;
+}
+
+.App-store-section .rating-stars p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-download-section p{
+font-size: 14px;
+font-weight: bold;
+}
+
+.scanner-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.scanner-section .text p{
+    color: #fff;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.scanner-section .scanner-img-qr-code img{
+  object-fit: fill;
+}
+
+.download-section-play-app-store{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.download-section-play-app-store .text p {
+    color: #fff;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: expanded;
+}
+.download-section-play-app-store  .store-links{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+
+/* Primo Section Starts Here  */
+.Primo-collection{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+.primo-bottom-flex{
+    display: flex;
+    gap: 40px;
+}
+.primo-botton-indide-flex{
+    display: flex;
+    width: 350px;
+    gap: 20px;
+    background-image: linear-gradient(to right,rgb(75, 29, 182), rgb(93, 32, 96));
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    align-items: center;
+}
+.text-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.p1{
+    font-size: 20px;
+    font-weight: 900;
+}
+.p2{
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+
+.partnerwithwrapper {
+    width: 1200px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.partnerwithwrapper .main-text p  {
+ font-size: 2.9rem;
+ color: rgb(44, 44, 44);
+}
+.rtc-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.top-rtc-text-section { 
+    display: flex;
+    justify-content: space-between;
+    
+}
+.top-rtc-text-section .text p {
+font-size: 2rem;
+color: rgb(59, 58, 58);
+}
+.top-rtc-text-section .button-rtc button {
+padding: 13px 25px;
+border-radius: 15px;
+align-items: center;
+border: 1px solid rgb(43, 42, 42);
+background-color: #fff;
+outline: none;
+font-weight: 400;
+line-height: 1.5;
+font-size: 16px;
+}
+
+
+.partner-names-wrapper {
+    display: flex;
+    gap: 45px;
+    
+}
+
+.partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.partner .text p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.partner .image img{
+    width: 110px;
+    object-fit: contain;
+}
+
+.private-bus {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.private-bus-section {
+    display: flex;
+    justify-content: space-between;
+}
+.private-bus-names{
+display: flex;
+width: 1200px;
+gap: 60px;
+align-items: center;
+margin-left: 20px;
+}
+.private-bus-names ul  {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+   
+    
+}
+.private-bus-names ul li  {
+    list-style: none;
+    width: max-content;
+   color: rgb(58, 58, 58);
+    
+}
+.private-bus-names ul li:hover{
+    width: max-content;
+    
+    background-color: whitesmoke;
+   
+}
+/* .requently-asked-Question   Section Here */
+
+.Frequently-asked-Question {
+
+}
+
+.Frequently-asked-Question .Frequently-asked-heading p {
+    font-size: 3rem;
+    color: rgb(35, 34, 34);
 }
