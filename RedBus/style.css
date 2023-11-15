@@ -99,19 +99,20 @@ font-family: 'Roboto', sans-serif;
 .ticket-booking-wrapper{
     width: 1000px;
     height: 122px;
-    background-color: rgb(232, 221, 221);
+    /* background-color: rgb(255, 255, 255); */
+    background-color: white;
     margin: 12% 18%;
     border-radius: 30px;
     display: flex;
     justify-content: center;
-    background-color: rgb(217, 217, 225);
+    background-color: white;
     
     overflow: hidden;
 
 }
 
 .from , .to ,  .date , .search{
-    background-color: rgb(228, 228, 236);
+    background-color: white;
    
 } 
 /* Placeholder Text editing  */
@@ -130,7 +131,7 @@ font-family: 'Roboto', sans-serif;
 i{
     
     font-size: 20px;
-    font-weight: 600;
+    
 }
 hr{
     font-weight: 900;
@@ -141,6 +142,8 @@ hr{
     gap: 20px;
     align-items: center;
     justify-content: center;
+    /* padding:  0 0 0 30px; */
+    width: 270px;
 }
 
 
@@ -150,14 +153,31 @@ hr{
     background-color: transparent; 
 
 }
-
-
+.arrow-round{
+   /* background-color:  rgb(228, 228, 236) */
+   background-color: white;
+   
+}
+.arrow-round i{
+    height: fit-content;
+    width: fit-content;
+    font-size: 18px;
+    color: rgb(137, 135, 135);
+    
+    position: absolute;
+    top: 36%;
+    left: 34.4%;
+    
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid rgb(137, 135, 135,0.3);
+}
 .to{
 display: flex;
 width: 300px;
 align-items: center;
 justify-content: center;
-padding: 0 0 0 20px;
+padding: 0 0 0 30px;
 }
 .to .input-box input{
     border: none;
@@ -172,7 +192,7 @@ padding: 0 0 0 20px;
 
 
 .date {
-width: 250px;
+width: 200px;
 display: flex;
 
 align-items: center;
@@ -254,10 +274,13 @@ font-weight: 500;
 }
 .First .img img{
     border-radius: 50px;
+    width: 80px;
+    object-fit: cover;
 }
 .First .text-section-first{
     display: flex;
     flex-direction: column;
+    
     
 }
 .text-section-first .transparent-btn button{
@@ -287,6 +310,33 @@ font-weight: 900;
  .First .coupon-section .coupon-copy{
 color: white;
  }
+ .SUPERHIT{
+    background-image: linear-gradient(to right, rgb(82, 5, 5) , rgb(212, 56, 74));
+ }
+ .SUPERHIT .text-section-first .transparent-btn button{
+    background-color: rgb(182, 99, 99);
+ }
+ .SUPERHIT .text-section-first .coupon-section .first-coupon p {
+    background-color: rgb(182, 99, 99);
+ }
+ .Bus300{
+    background-image: linear-gradient(to right,rgb(24, 126, 73),rgb(140, 214, 183));
+ }
+ .Bus300 .text-section-first .transparent-btn button{
+    background-color: rgb(100, 186, 150);
+ }
+ .Bus300 .text-section-first .coupon-section .first-coupon p {
+    background-color:  rgb(100, 186, 150);
+ }
+ .RBTRIP {
+    background-image: linear-gradient(to right, rgb(56, 170, 190),rgb(23, 205, 221))
+ }
+ .RBTRIP .text-section-first .transparent-btn button {
+    background-color: rgba(199, 235, 235, 0.771);
+ }
+ .RBTRIP .text-section-first .coupon-section .first-coupon p {
+    background-color: rgb(110, 201, 201);
+ }
 .button{
     position: absolute;
     top: 60%;
@@ -298,13 +348,13 @@ color: white;
     padding: 15px 20px;
     border-radius: 35px;
     border: none;
-    background-color: #fff;
+    background-color: white;
     text-align: center;
     color: rgb(29, 29, 29);
 }
 .button .back-btn{
     position: absolute;
-  left: -10px;
+  left: -15px;
 }
 .button .next-Btn{
     position: absolute;
@@ -873,4 +923,8 @@ font-size: 14px;
     font-size: 14px;
     color: rgb(56, 56, 56);
     letter-spacing: 0.5px;
+}
+
+button{
+    border: 1px solid rgb(36, 36, 36,0.5);
 }
