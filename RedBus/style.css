@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
 header{
     width: 100%;
     height: 13%;
-    background-color:whitesmoke;
+    background-color:rgb(255, 254, 254);
     position: fixed;
     z-index: 1;
     
