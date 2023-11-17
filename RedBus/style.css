@@ -266,7 +266,7 @@ font-weight: 500;
     display: flex;
     align-items: center;
     gap: 20px;
-    background-image: linear-gradient(to right, blue , rgb(56, 173, 212));
+    background-image: linear-gradient(to right, rgb(9, 9, 157) , rgb(56, 173, 212));
     color: white;
     border-radius: 20px;
     overflow: hidden;
@@ -287,7 +287,7 @@ font-weight: 500;
     padding: 2px 10px;
     border-radius: 10px;
     outline: none;
-    background-color: rgb(98, 98, 225);
+    background: rgba(255, 255, 255, 0.2);
     color: white;
     border: none;
     margin-bottom: 5px;
@@ -304,7 +304,7 @@ font-weight: 900;
     border:1.8PX  dotted;
     font-size: 14PX;
     padding: 2PX 10PX;
-    background-color: rgb(98, 98, 225);
+    background: rgba(255, 255, 255, 0.2);
     
  }
  .First .coupon-section .coupon-copy{
@@ -314,28 +314,69 @@ color: white;
     background-image: linear-gradient(to right, rgb(82, 5, 5) , rgb(212, 56, 74));
  }
  .SUPERHIT .text-section-first .transparent-btn button{
-    background-color: rgb(182, 99, 99);
+    background: rgba(255, 255, 255, 0.2);
  }
  .SUPERHIT .text-section-first .coupon-section .first-coupon p {
-    background-color: rgb(182, 99, 99);
+   background: rgba(255, 255, 255, 0.2);
  }
  .Bus300{
     background-image: linear-gradient(to right,rgb(24, 126, 73),rgb(140, 214, 183));
  }
  .Bus300 .text-section-first .transparent-btn button{
-    background-color: rgb(100, 186, 150);
+    background: rgba(255, 255, 255, 0.2);
  }
  .Bus300 .text-section-first .coupon-section .first-coupon p {
-    background-color:  rgb(100, 186, 150);
+    background: rgba(255, 255, 255, 0.2);
  }
  .RBTRIP {
-    background-image: linear-gradient(to right, rgb(56, 170, 190),rgb(23, 205, 221))
+    background-image: linear-gradient(to right, rgb(35, 141, 160),rgb(23, 205, 221))
  }
  .RBTRIP .text-section-first .transparent-btn button {
-    background-color: rgba(199, 235, 235, 0.771);
+    background: rgba(255, 255, 255, 0.2);
  }
  .RBTRIP .text-section-first .coupon-section .first-coupon p {
-    background-color: rgb(110, 201, 201);
+    background: rgba(255, 255, 255, 0.2);
+ }
+
+ .CHARTEDED15{
+    background-image: linear-gradient(71.04deg, rgb(206, 119, 0) -6.92%, rgb(255, 194, 111) 109.43%);
+
+ }
+
+ .CHARTEDED15 .text-section-first .transparent-btn button {
+    background: rgba(255, 255, 255, 0.2);
+  
+ }
+ .CHARTEDED15 .text-section-first .coupon-section .first-coupon p{
+    background: rgba(255, 255, 255, 0.2);
+ }
+
+ .APSRTCNEW {
+    background-image: linear-gradient(71.04deg, rgb(134, 0, 62) -6.92%, rgb(210, 81, 141) 109.43%);
+ }
+ .APSRTCNEW .text-section-first .transparent-btn button{
+    background: rgba(255, 255, 255, 0.2);
+ }
+ .APSRTCNEW .text-section-first .coupon-section .first-coupon p {
+    background: rgba(255, 255, 255, 0.2);
+ }
+ .TSRTC {
+    background-image: linear-gradient(71.04deg, rgb(60, 16, 83) -6.92%, rgb(173, 83, 137) 109.43%);
+ }
+ .TSRTC .text-section-first .transparent-btn button {
+    background: rgba(255, 255, 255, 0.2);
+ }
+ .TSRTC .text-section-first .coupon-section .first-coupon p {
+    background: rgba(255, 255, 255, 0.2);
+ }
+ .UPSRTC {
+    background-image: linear-gradient(71.04deg, rgb(63, 43, 150) -6.92%, rgb(168, 192, 255) 109.43%);
+ }
+ .UPSRTC .text-section-first .transparent-btn button {
+    background: rgba(255, 255, 255, 0.2);
+ }
+ .UPSRTC .text-section-first .coupon-section .first-coupon p {
+    background: rgba(255, 255, 255, 0.2);
  }
 .button{
     position: absolute;
@@ -361,20 +402,25 @@ color: white;
    left: 1100px;
 }
  .sponsership{
+    border-radius: 20px;
    width: 1000px;
-   height: 200px;
+   height: 100px;
    position: relative;
    top: -140px;
-   border-radius: 10px;
-   margin: 0 auto;
-  background-image: url(images/sponsership2.png);
-  background-repeat: no-repeat;
+  
+   margin: 50px auto;
+   background-image: url(images/sponsership2.png); 
+   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
- overflow: hidden;
- }
+  background-size: cover;
 
-
+ object-fit: contain;
+ }  
+/* .sponsership img{
+    width: 1000px;
+    height: 200px;
+  object-fit: none;
+} */
 
  /* Ticket Section  */
 
