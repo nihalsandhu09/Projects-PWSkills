@@ -27,7 +27,7 @@ const questions = [
         question : "which is the largest desert in the world?",
         answers : [
             { text: "kalhari" ,correct: false, },
-            { text: "Gobi" ,correct: true, },
+            { text: "Gobi" ,correct: false, },
             { text: "Sahara" ,correct: false, },
             { text: "Antartica" ,correct: true, }
         ]
@@ -88,6 +88,7 @@ answerButtons.removeChild(answerButtons.firstChild);
   if(iscorrect){
 
     selectBtn.classList.add('correct');
+    score++;
   }else{
     selectBtn.classList.add('incorrect');
   }
@@ -100,4 +101,27 @@ answerButtons.removeChild(answerButtons.firstChild);
   })
   nextButton.style.display = 'block';
 }
+
+function showScore(){
+resetState();
+questionElement.innerHTML = `you scored ${score} out of ${questions.length}!`;
+nextButton.innerHTML = 'Play again';
+nextButton.style.display = 'block'
+}
+function handleNextButton(){
+    currentQuestiionIndex++;
+    if(currentQuestiionIndex < questions.length){
+        showQuestion();
+    }else{
+        showScore()
+    }
+}
+
+nextButton.addEventListener('click',()=>{
+    if(currentQuestiionIndex < questions.length){
+        handleNextButton();
+    }else{
+        startQuiz()
+    }
+})
 startQuiz()
